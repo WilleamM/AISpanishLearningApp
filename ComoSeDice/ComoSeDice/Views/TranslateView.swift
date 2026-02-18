@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct TranslateView: View {
+    @State private var sliderValue: Double = 50
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("This will be the main translate screen")
+            Button("Test slider") {
+                print("Translate")
+            }
+            Slider(value: $sliderValue, in: 1...100, step: 1)
+            Text("Value: \(Int(sliderValue))")
         }
         .padding()
     }
