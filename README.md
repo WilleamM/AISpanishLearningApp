@@ -3,8 +3,7 @@ Willeam Mendez
 Senior Project – [Cal poly San Luis Obispo]  
 Year: 2026
 
-# Project Name
-*TBD*
+# Como Se Dice
 
 ## Description
 MY project is an AI-powered Spanish learning mobile application that helps users learn **real, conversational Spanish**.
